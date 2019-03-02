@@ -153,3 +153,20 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 20px;
 }
+
+@media only screen and (max-width: 980px) {
+  body {
+      background-color: black;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+      background-color: lightgreen;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  body {
+      background-color: lightpink;
+  }
